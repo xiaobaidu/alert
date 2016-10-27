@@ -1,1 +1,16 @@
-弹框样式
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/alert.css"/>
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js" ></script>
+	<script type="text/javascript" src="js/alert.js" ></script>
+</head>
+<body>
+	<a href="javascript:void(0);" class="check-del">删除</a>
+	<script type="text/javascript">
+	    $(".check-del").click(function(){
+	        mbox.msg("弹出提示内容弹出提示内容！", 10, 10);       
+	    });
+	</script>
+</body>
+</html>
